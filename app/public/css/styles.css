@@ -5556,5 +5556,19 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 
-body {
-  background-color: red; }
+#header_section {
+  background-color: #202227; }
+  #header_section .border {
+    border-image: url('/images/border.png') 45% repeat; }
+  #header_section #header_logo_section #title {
+    color: #1AC5C2; }
+  #header_section #tablet_desktop_nav {
+    text-align: right; }
+    #header_section #tablet_desktop_nav .nav_item {
+      display: inline-block;
+      margin-left: 20px;
+      font-size: 16px; }
+      #header_section #tablet_desktop_nav .nav_item a {
+        color: #1AC5C2; }
+      #header_section #tablet_desktop_nav .nav_item a:hover {
+        color: #FFFFFF; }

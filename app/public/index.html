@@ -8,7 +8,30 @@
   <title>Flappy App</title>
 </head>
 <body>
-  <h1>hello</h1>
+  <div id="header_section">
+    <div class="border">
+      <!-- <img src="/images/border.png" alt=""> -->
+    </div>
+    <div id="header_logo_section">
+      <h1 id="title">FLAPPY
+        <img id="logo" src="/images/logo.png" alt="logo">APP
+      </h1>
+    </div>
+    <!-- NAV FOR DESKTOP AND TABLET -->
+    <nav id="tablet_desktop_nav" class="show-for-medium-up">
+      <ul>
+        <li class="nav_item"><a href="#">About</a></li>
+        <li class="nav_item"><a href="#">Specs</a></li>
+        <li class="nav_item"><a href="#">Pricing</a></li>
+        <li class="nav_item"><a href="#">Contact</a></li>
+        <li class="nav_item"><a href="#">Sign Up</a></li>
+      </ul>
+      <!-- DO MOBILE NAV HERE -->
+      <nav id="mobile_nav" class="show-for-small-only=">
+        
+      </nav><!-- END MOBILE NAV -->
+    </nav><!-- END TABLET DESKTOP NAV -->
+  </div> <!-- END HEADER SECTION -->
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="/bower_components/foundation/js/foundation.min.js"></script>
   <script>

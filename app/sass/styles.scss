@@ -1,6 +1,33 @@
 @import "partials/settings";
 @import "../public/bower_components/foundation/scss/foundation";
 
-body {
-  background-color: red;
-}
+// HEADER
+#header_section {
+  background-color: #202227;
+  .border {
+    border-image: url('/images/border.png') 45% repeat;
+    // border: 2px solid red;
+  }
+  #header_logo_section {
+    #title {
+      color: #1AC5C2;
+    }
+    #logo {
+
+    }
+  }
+  #tablet_desktop_nav {
+    text-align: right;
+    .nav_item {
+      display: inline-block;
+      margin-left: 20px;
+      font-size: 16px;
+      a {
+        color: #1AC5C2;
+      }
+      a:hover {
+        color: #FFFFFF;
+      }
+    }
+  }
+} // END HEADER
