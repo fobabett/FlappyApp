@@ -9,8 +9,8 @@ gulp.task('styles', function () {
 
 gulp.task('watch_styles', function () {
   gulp.watch('./sass/**/*.scss', ['styles']);
-  gulp.watch('*.html', notifyLiveReload);
-  gulp.watch('css/*.css', notifyLiveReload);
+  gulp.watch('/public/*.html', notifyLiveReload);
+  gulp.watch('/public/css/*.css', notifyLiveReload);
 })
 
 gulp.task('express', function() {
