@@ -7,5 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.4"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.5.2",
+    "gulp": "^3.8.10",
+    "gulp-sass": "^1.1.0",
+    "tiny-lr": "^0.1.4"
+  }
 }
