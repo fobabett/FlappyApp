@@ -20,10 +20,21 @@ body {
     }
     #mobile_nav {
       #mobile_logo {
-        background-image: url('/images/logo.png');
+        float: left;
+        img {
+          background-repeat: no-repeat;
+          width: 70px;
+        }
       }
-      h1 {
-        color: #1BD0CD;
+      #mobile_title {
+        a {
+          color: #1BD0CD;
+        }
+      }
+      .menu-icon {
+        a {
+          color: #1BD0CD; 
+        }
       }
     }
     #header_logo_section_medium {

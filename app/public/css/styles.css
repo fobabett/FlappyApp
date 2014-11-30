@@ -5568,8 +5568,13 @@ body {
     body #header_section .border {
       border-image: url('/images/border.png') 45% repeat; }
     body #header_section #mobile_nav #mobile_logo {
-      background-image: url('/images/logo.png'); }
-    body #header_section #mobile_nav h1 {
+      float: left; }
+      body #header_section #mobile_nav #mobile_logo img {
+        background-repeat: no-repeat;
+        width: 70px; }
+    body #header_section #mobile_nav #mobile_title a {
+      color: #1BD0CD; }
+    body #header_section #mobile_nav .menu-icon a {
       color: #1BD0CD; }
     body #header_section #header_logo_section_medium {
       margin: 50px; }
