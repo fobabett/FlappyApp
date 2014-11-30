@@ -20,12 +20,16 @@ body {
     }
     background-color: #202227;
     box-shadow: 0 0 5px 5px #C4C3C4;
+    @media #{$large-up} {
+
     padding-bottom: 30px;
+    }
     .border {
       border-image: url('/images/border.png') 45% repeat;
       // border: 2px solid red;
     }
     #mobile_nav {
+      background-color: #202227;
       #mobile_logo {
         float: left;
         img {
@@ -121,10 +125,10 @@ body {
       }
       #img_block {
         background-image: url('/images/scenery.png');
-        box-shadow: 0 0 5px 5px #DADADA;
         box-sizing: border-box;
         height: 270px;
         @media #{$large-up} {
+          
           // width: 732px;
           border: 5px solid black;
         }
@@ -132,10 +136,11 @@ body {
       #features_block {
         background-color: #1AC3C0;
         box-sizing: border-box;
-        box-shadow: 0 0 5px 5px #DADADA;
         text-align: center;
         height: 270px;
+        box-shadow: 5px 5px 5px #DADADA;
         @media #{$large-up} {
+          box-shadow: 0 0 5px 5px #DADADA;
           width: 300px;
         }
         #features_title {
@@ -143,17 +148,32 @@ body {
           color: #19B2B0;
           padding: 5px;
         }
+        #modes {
+         border-bottom: 1px solid #149694; 
+        }
+        #options {
+         border-bottom: 1px solid #149694; 
+        }
+        #points {
+         border-bottom: 1px solid #149694; 
+        }
         .features_content {
-          border-bottom: 1px solid #149694;
+          // border-bottom: 1px solid #149694;
           padding: 5px;
           font-size: 14px;
+          line-height: 50px;
         }
       }
     }
     #content_info {
-      margin: 30px;
+      margin-top: 30px;
+      border: 2px solid red;
       text-align: center;
       p {
+        @media #{$small-only} {
+          width: 290px;
+          font-size: 16px;
+        }
         font-size: 24px;
         text-align: left;
         font-weight: bold;
@@ -162,7 +182,7 @@ body {
   } //END CONTENT
   // FOOTER
   footer {
-    box-shadow: 0 0 5px 5px #D6D4D4;
+    // box-shadow: 0 0 0px 5px #D6D4D4;
     .border {
       border-image: url('/images/border.png') 45% repeat;
     }
