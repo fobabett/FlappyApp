@@ -1,6 +1,10 @@
 @import "partials/settings";
 @import "../public/bower_components/foundation/scss/foundation";
 
+.highlight {
+  color: #FFFFFF;
+}
+
 body {
   background-color: #202227;
   // HEADER
@@ -97,6 +101,16 @@ body {
         width: 250px;
         height: 270px;
         box-shadow: 3px 3px 3px #DADADA;
+        text-align: center;
+        #features_title {
+          background-color: #202227;
+          color: #19B2B0;
+          padding: 5px;
+        }
+        .features_content {
+          border-bottom: 1px solid #149694;
+          padding: 5px;
+        }
       }
     }
   } //END CONTENT

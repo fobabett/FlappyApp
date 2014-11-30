@@ -5556,6 +5556,9 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 
+.highlight {
+  color: #FFFFFF; }
+
 body {
   background-color: #202227; }
   body #header_section {
@@ -5625,7 +5628,15 @@ body {
         box-sizing: border-box;
         width: 250px;
         height: 270px;
-        box-shadow: 3px 3px 3px #DADADA; }
+        box-shadow: 3px 3px 3px #DADADA;
+        text-align: center; }
+        body #content_container #content_blocks #features_block #features_title {
+          background-color: #202227;
+          color: #19B2B0;
+          padding: 5px; }
+        body #content_container #content_blocks #features_block .features_content {
+          border-bottom: 1px solid #149694;
+          padding: 5px; }
   body footer .border {
     border-image: url('/images/border.png') 45% repeat; }
   body footer .footer_links {
