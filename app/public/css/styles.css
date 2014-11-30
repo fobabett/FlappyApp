@@ -5647,6 +5647,7 @@ body {
       height: 270px; }
       @media only screen and (min-width:64.063em) {
         body #content_container #content_blocks #img_block {
+          box-shadow: 0 0 5px 5px #DADADA;
           border: 5px solid black; } }
     body #content_container #content_blocks #features_block {
       background-color: #1AC3C0;
@@ -5661,7 +5662,9 @@ body {
       body #content_container #content_blocks #features_block #features_title {
         background-color: #202227;
         color: #19B2B0;
-        padding: 5px; }
+        padding: 10px;
+        margin-left: -15px;
+        margin-right: -15px; }
       body #content_container #content_blocks #features_block #modes {
         border-bottom: 1px solid #149694; }
       body #content_container #content_blocks #features_block #options {
@@ -5671,7 +5674,9 @@ body {
       body #content_container #content_blocks #features_block .features_content {
         padding: 5px;
         font-size: 14px;
-        line-height: 50px; }
+        line-height: 50px;
+        margin-left: -15px;
+        margin-right: -15px; }
     body #content_container #content_info {
       margin-top: 30px;
       border: 2px solid red;
