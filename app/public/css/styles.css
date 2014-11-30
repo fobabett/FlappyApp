@@ -4108,7 +4108,7 @@ meta.foundation-mq-topbar {
           top: 50%;
           margin-top: -8px;
           right: 15px;
-          box-shadow: 0 0px 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
+          box-shadow: 0 0px 0 1px #1BD0CC, 0 7px 0 1px #1BD0CC, 0 14px 0 1px #1BD0CC;
           width: 16px; }
         .top-bar .toggle-topbar.menu-icon a span:hover:after {
           box-shadow: 0 0px 0 1px "", 0 7px 0 1px "", 0 14px 0 1px ""; }
@@ -5568,7 +5568,9 @@ body {
   body #header_section {
     background-color: #202227;
     box-shadow: 0 0 5px 5px #C4C3C4; }
-    @media only screen and (min-width:40.063em) and (max-width:64em) { }
+    @media only screen and (min-width:40.063em) and (max-width:64em) {
+      body #header_section {
+        padding-bottom: 10px; } }
     @media only screen and (min-width:64.063em) {
       body #header_section {
         padding-bottom: 30px; } }
@@ -5582,14 +5584,15 @@ body {
           background-repeat: no-repeat;
           width: 70px; }
       body #header_section #mobile_nav #mobile_title a {
-        color: #1BD0CD; }
-      body #header_section #mobile_nav .menu-icon a {
-        color: #1BD0CD; }
+        color: #1BD0CD;
+        font-size: 20px;
+        letter-spacing: 5px; }
     body #header_section #header_logo_section_medium {
-      margin: 50px; }
+      margin: 40px; }
       body #header_section #header_logo_section_medium #title_section .title {
         color: #1AC5C2;
-        font-size: 20px; }
+        font-size: 30px;
+        letter-spacing: 5px; }
       body #header_section #header_logo_section_medium #logo {
         float: left; }
     body #header_section #header_logo_section {
@@ -5606,8 +5609,9 @@ body {
             letter-spacing: 5px;
             font-weight: bold; }
           body #header_section #header_logo_section #logo {
-            margin-left: -40px;
+            margin-left: -30px;
             margin-right: -20px;
+            margin-bottom: 20px;
             position: relative;
             z-index: 1; } }
     body #header_section #tablet_desktop_nav {
@@ -5625,6 +5629,9 @@ body {
         display: inline-block;
         margin-left: 20px;
         font-size: 16px; }
+        @media only screen and (min-width:40.063em) and (max-width:64em) {
+          body #header_section #tablet_desktop_nav .nav_item {
+            font-size: 22px; } }
         body #header_section #tablet_desktop_nav .nav_item a {
           color: #1AC5C2; }
           @media only screen and (min-width:64.063em) {
@@ -5638,6 +5645,7 @@ body {
         body #header_section #tablet_desktop_nav #tablet_desktop_nav:hover {
           border-bottom: 5px solid #FFFFFF; } }
   body #content_container {
+    text-align: center;
     padding-bottom: 10px;
     background-color: #FFFFFF; }
     @media only screen and (min-width:64.063em) {
@@ -5649,7 +5657,7 @@ body {
     body #content_container #content_blocks #img_block {
       background-image: url('/images/scenery.png');
       box-sizing: border-box;
-      height: 270px; }
+      height: 267px; }
       @media only screen and (min-width:64.063em) {
         body #content_container #content_blocks #img_block {
           box-shadow: 0 0 5px 5px #DADADA;
@@ -5681,20 +5689,23 @@ body {
         font-size: 14px;
         line-height: 45px;
         margin-left: -15px;
-        margin-right: -15px; }
+        margin-right: -15px;
+        letter-spacing: 2px; }
     body #content_container #content_info {
-      margin-top: 30px;
-      margin-top: 30px;
       text-align: center; }
       body #content_container #content_info p {
+        margin: 30px;
         font-size: 24px;
         text-align: left;
         font-weight: bolder;
         text-transform: none; }
         @media only screen and (max-width: 40em) {
           body #content_container #content_info p {
-            width: 290px;
+            width: 200px;
             font-size: 16px; } }
+        @media only screen and (min-width:40.063em) and (max-width:64em) {
+          body #content_container #content_info p {
+            font-size: 30px; } }
   body footer {
     letter-spacing: 1px; }
     body footer .border {
@@ -5723,3 +5734,6 @@ body {
         body footer #footer_bar {
           background-color: #1AC3C0;
           color: black; } }
+      @media only screen and (min-width:40.063em) and (max-width:64em) {
+        body footer #footer_bar {
+          margin-top: 0; } }

@@ -55,7 +55,7 @@
 // $rem-base: 16px;
 
 // Allows the use of rem-calc() or lower-bound() in your settings
-@import "../../public/bower_components/foundation/scss/foundation/functions";
+@import "../public/bower_components/foundation/scss/foundation/functions";
 
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
 // for compatibility with browser-based text zoom or user-set defaults.
@@ -1378,7 +1378,7 @@ $include-html-global-classes: $include-html-classes;
 // $topbar-dropdown-link-bg: $oil;
 // $topbar-dropdown-link-weight: $font-weight-normal;
 // $topbar-dropdown-toggle-size: 5px;
-// $topbar-dropdown-toggle-color: $white;
+// $topbar-dropdown-toggle-color: #1BD0CC;
 // $topbar-dropdown-toggle-alpha: 0.4;
 
 // Set the link colors and styles for top-level nav
@@ -1414,7 +1414,7 @@ $include-html-global-classes: $include-html-classes;
 // $topbar-menu-link-font-size: rem-calc(13);
 // $topbar-menu-link-weight: $font-weight-bold;
 // $topbar-menu-link-color: $white;
-// $topbar-menu-icon-color: $white;
+$topbar-menu-icon-color: #1BD0CC;
 // $topbar-menu-link-color-toggled: $jumbo;
 // $topbar-menu-icon-color-toggled: $jumbo;
 

@@ -16,7 +16,7 @@ body {
   // HEADER
   #header_section {
     @media #{$medium-only} { 
-
+      padding-bottom: 10px;
     }
     background-color: #202227;
     box-shadow: 0 0 5px 5px #C4C3C4;
@@ -40,21 +40,19 @@ body {
       #mobile_title {
         a {
           color: #1BD0CD;
-        }
-      }
-      .menu-icon {
-        a {
-          color: #1BD0CD; 
+          font-size: 20px;
+          letter-spacing: 5px;
         }
       }
     }
     #header_logo_section_medium {
-      margin: 50px;
+      margin: 40px;
       // border: 2px solid red;
       #title_section {
         .title {
           color: #1AC5C2;
-          font-size: 20px;
+          font-size: 30px;
+          letter-spacing: 5px;
         }
       }
       #logo {
@@ -75,8 +73,9 @@ body {
           font-weight: bold;
         }
         #logo {
-          margin-left: -40px;
+          margin-left: -30px;
           margin-right: -20px;
+          margin-bottom: 20px;
           position: relative;
           z-index: 1;
         }
@@ -94,6 +93,9 @@ body {
       float: right;
       box-sizing: border-box;
       .nav_item {
+        @media #{$medium-only} {
+          font-size: 22px;
+        }
         display: inline-block;
         margin-left: 20px;
         font-size: 16px;
@@ -118,6 +120,7 @@ body {
   } // END HEADER
   // MAIN CONTENT
   #content_container {
+    text-align: center;
     padding-bottom: 10px;
     background-color: #FFFFFF;
     @media #{$large-up} {
@@ -130,7 +133,7 @@ body {
       #img_block {
         background-image: url('/images/scenery.png');
         box-sizing: border-box;
-        height: 270px;
+        height: 267px;
         @media #{$large-up} {
           box-shadow: 0 0 5px 5px #DADADA;
           // width: 732px;
@@ -170,18 +173,21 @@ body {
           line-height: 45px;
           margin-left: -15px;
           margin-right: -15px;
+          letter-spacing: 2px;
         }
       }
     }
     #content_info {
-      margin-top: 30px;
-      margin-top: 30px;
       text-align: center;
       p {
         @media #{$small-only} {
-          width: 290px;
+          width: 200px;
           font-size: 16px;
         }
+        @media #{$medium-only} {
+          font-size: 30px;
+        }
+        margin: 30px;
         font-size: 24px;
         text-align: left;
         font-weight: bolder;
@@ -224,6 +230,9 @@ body {
       font-size: 14px;
       padding: 8px;
       margin-top: 40px;
+      @media #{$medium-only} {
+        margin-top: 0;
+      }
     }
   }
 }
