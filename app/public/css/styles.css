@@ -5597,7 +5597,7 @@ body {
       box-sizing: border-box; }
       @media only screen and (min-width:64.063em) {
         body #header_section #header_logo_section {
-          margin-left: 150px;
+          margin-left: 50px;
           margin-top: 5px; }
           body #header_section #header_logo_section .title {
             color: #1AC5C2;
@@ -5607,7 +5607,9 @@ body {
             font-weight: bold; }
           body #header_section #header_logo_section #logo {
             margin-left: -40px;
-            margin-right: -20px; } }
+            margin-right: -20px;
+            position: relative;
+            z-index: 1; } }
     body #header_section #tablet_desktop_nav {
       float: right;
       box-sizing: border-box; }
@@ -5617,23 +5619,26 @@ body {
           margin-top: -100px; } }
       @media only screen and (min-width:64.063em) {
         body #header_section #tablet_desktop_nav {
-          margin-right: 150px;
+          margin-right: 50px;
           margin-top: 25px; } }
       body #header_section #tablet_desktop_nav .nav_item {
         display: inline-block;
         margin-left: 20px;
         font-size: 16px; }
-        @media only screen and (min-width:64.063em) {
-          body #header_section #tablet_desktop_nav .nav_item {
-            border-bottom: 5px solid #1AC5C2; } }
         body #header_section #tablet_desktop_nav .nav_item a {
           color: #1AC5C2; }
+          @media only screen and (min-width:64.063em) {
+            body #header_section #tablet_desktop_nav .nav_item a {
+              padding-bottom: 10px;
+              border-bottom: 5px solid #1AC5C2; } }
         body #header_section #tablet_desktop_nav .nav_item a:hover {
-          color: #FFFFFF; }
+          color: #FFFFFF;
+          border-bottom: 5px solid #FFFFFF; }
       @media only screen and (min-width:64.063em) {
-        body #header_section #tablet_desktop_nav .nav_item:hover {
+        body #header_section #tablet_desktop_nav #tablet_desktop_nav:hover {
           border-bottom: 5px solid #FFFFFF; } }
   body #content_container {
+    padding-bottom: 10px;
     background-color: #FFFFFF; }
     @media only screen and (min-width:64.063em) {
       body #content_container {
@@ -5674,42 +5679,47 @@ body {
       body #content_container #content_blocks #features_block .features_content {
         padding: 5px;
         font-size: 14px;
-        line-height: 50px;
+        line-height: 45px;
         margin-left: -15px;
         margin-right: -15px; }
     body #content_container #content_info {
       margin-top: 30px;
-      border: 2px solid red;
+      margin-top: 30px;
       text-align: center; }
       body #content_container #content_info p {
         font-size: 24px;
         text-align: left;
-        font-weight: bold; }
+        font-weight: bolder;
+        text-transform: none; }
         @media only screen and (max-width: 40em) {
           body #content_container #content_info p {
             width: 290px;
             font-size: 16px; } }
-  body footer .border {
-    border-image: url('/images/border.png') 45% repeat; }
-  body footer .footer_links {
-    color: #FFFFFF;
-    margin-top: 30px; }
-    @media only screen and (min-width:64.063em) {
-      body footer .footer_links {
-        border-left: 2px solid #1BD3D0; } }
-    body footer .footer_links ul {
-      list-style-type: none; }
-      body footer .footer_links ul li a {
-        color: #19C5C3; }
-      body footer .footer_links ul li a:hover {
-        color: #FFFFFF; }
-  body footer #footer_bar {
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 12px;
-    padding: 5px;
-    margin-top: 30px; }
-    @media only screen and (min-width:64.063em) {
-      body footer #footer_bar {
-        background-color: #1AC3C0;
-        color: black; } }
+  body footer {
+    letter-spacing: 1px; }
+    body footer .border {
+      border-image: url('/images/border.png') 45% repeat; }
+    body footer .footer_links {
+      color: #FFFFFF;
+      margin-top: 40px; }
+      @media only screen and (min-width:64.063em) {
+        body footer .footer_links {
+          border-left: 3px solid #1BD3D0; } }
+      body footer .footer_links ul {
+        list-style-type: none; }
+        body footer .footer_links ul li {
+          padding-bottom: 5px; }
+          body footer .footer_links ul li a {
+            color: #19C5C3; }
+          body footer .footer_links ul li a:hover {
+            color: #FFFFFF; }
+    body footer #footer_bar {
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 14px;
+      padding: 8px;
+      margin-top: 40px; }
+      @media only screen and (min-width:64.063em) {
+        body footer #footer_bar {
+          background-color: #1AC3C0;
+          color: black; } }
