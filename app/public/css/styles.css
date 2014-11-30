@@ -5567,12 +5567,16 @@ body {
     @media only screen and (min-width:40.063em) and (max-width:64em) { }
     body #header_section .border {
       border-image: url('/images/border.png') 45% repeat; }
-    body #header_section #header_logo_section_medium_down {
+    body #header_section #mobile_nav #mobile_logo {
+      background-image: url('/images/logo.png'); }
+    body #header_section #mobile_nav h1 {
+      color: #1BD0CD; }
+    body #header_section #header_logo_section_medium {
       margin: 50px; }
-      body #header_section #header_logo_section_medium_down #title_section .title {
+      body #header_section #header_logo_section_medium #title_section .title {
         color: #1AC5C2;
         font-size: 20px; }
-      body #header_section #header_logo_section_medium_down #logo {
+      body #header_section #header_logo_section_medium #logo {
         float: left; }
     body #header_section #header_logo_section {
       float: left;
@@ -5610,39 +5614,48 @@ body {
         body #header_section #tablet_desktop_nav .nav_item:hover {
           border-bottom: 5px solid #FFFFFF; } }
   body #content_container {
-    background-color: #FFFFFF;
-    border: 1px solid #FFFFFF; }
-    body #content_container #content_blocks {
-      margin: 30px; }
-      body #content_container #content_blocks #img_block {
-        background-image: url('/images/scenery.png');
-        border: 3px solid black;
-        width: 700px;
-        height: 270px;
-        box-shadow: 3px 3px 3px #DADADA;
-        float: left;
-        box-sizing: border-box; }
-      body #content_container #content_blocks #features_block {
-        background-color: #1AC3C0;
-        float: right;
-        box-sizing: border-box;
-        width: 250px;
-        height: 270px;
-        box-shadow: 3px 3px 3px #DADADA;
-        text-align: center; }
-        body #content_container #content_blocks #features_block #features_title {
-          background-color: #202227;
-          color: #19B2B0;
-          padding: 5px; }
-        body #content_container #content_blocks #features_block .features_content {
-          border-bottom: 1px solid #149694;
-          padding: 5px; }
+    background-color: #FFFFFF; }
+    @media only screen and (min-width:64.063em) {
+      body #content_container {
+        border: 1px solid #FFFFFF; } }
+    @media only screen and (min-width:64.063em) {
+      body #content_container #content_blocks {
+        margin: 30px; } }
+    body #content_container #content_blocks #img_block {
+      background-image: url('/images/scenery.png');
+      height: 270px;
+      box-shadow: 3px 3px 3px #DADADA;
+      box-sizing: border-box; }
+      @media only screen and (min-width:64.063em) {
+        body #content_container #content_blocks #img_block {
+          border: 3px solid black; } }
+    body #content_container #content_blocks #features_block {
+      background-color: #1AC3C0;
+      box-sizing: border-box;
+      height: 270px;
+      box-shadow: 4px 4px 4px #DADADA;
+      text-align: center; }
+      body #content_container #content_blocks #features_block #features_title {
+        background-color: #202227;
+        color: #19B2B0;
+        padding: 5px; }
+      body #content_container #content_blocks #features_block .features_content {
+        border-bottom: 1px solid #149694;
+        padding: 5px; }
+    body #content_container #content_info {
+      margin: 30px;
+      text-align: center; }
+      body #content_container #content_info p {
+        font-size: 20px;
+        text-align: left; }
   body footer .border {
     border-image: url('/images/border.png') 45% repeat; }
   body footer .footer_links {
     color: #FFFFFF;
-    border-left: 2px solid #1BD3D0;
     margin-top: 30px; }
+    @media only screen and (min-width:64.063em) {
+      body footer .footer_links {
+        border-left: 2px solid #1BD3D0; } }
     body footer .footer_links ul {
       list-style-type: none; }
       body footer .footer_links ul li a {
@@ -5650,8 +5663,11 @@ body {
       body footer .footer_links ul li a:hover {
         color: #FFFFFF; }
   body footer #footer_bar {
-    background-color: #1AC3C0;
+    color: #FFFFFF;
     text-align: center;
     font-size: 12px;
     padding: 5px;
     margin-top: 30px; }
+    @media only screen and (min-width:64.063em) {
+      body footer #footer_bar {
+        background-color: #1AC3C0; } }
