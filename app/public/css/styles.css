@@ -5604,3 +5604,24 @@ th.hide-for-touch {
     @media only screen and (min-width:64.063em) {
       #header_section #tablet_desktop_nav .nav_item:hover {
         border-bottom: 5px solid #FFFFFF; } }
+
+#content_container #content_blocks {
+  margin: 30px; }
+  #content_container #content_blocks #img_block {
+    background-image: url('/images/scenery.png');
+    border: 3px solid black;
+    width: 700px;
+    height: 270px;
+    box-shadow: 3px 3px 3px #DADADA;
+    float: left;
+    box-sizing: border-box; }
+  #content_container #content_blocks #features_block {
+    background-color: #1AC3C0;
+    float: right;
+    box-sizing: border-box;
+    width: 250px;
+    height: 270px;
+    box-shadow: 3px 3px 3px #DADADA; }
+
+footer {
+  background-color: #202227; }
