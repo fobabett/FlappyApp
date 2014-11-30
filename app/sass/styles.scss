@@ -10,6 +10,8 @@ $font-stack: "Lato", sans-serif;
 
 body {
   font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
   background-color: #202227;
   // HEADER
   #header_section {
@@ -17,7 +19,7 @@ body {
 
     }
     background-color: #202227;
-    box-shadow: 3px 3px 3px #C4C3C4;
+    box-shadow: 0 0 5px 5px #C4C3C4;
     padding-bottom: 30px;
     .border {
       border-image: url('/images/border.png') 45% repeat;
@@ -119,18 +121,18 @@ body {
       }
       #img_block {
         background-image: url('/images/scenery.png');
-        box-shadow: 3px 3px 3px #DADADA;
+        box-shadow: 0 0 5px 5px #DADADA;
         box-sizing: border-box;
         height: 270px;
         @media #{$large-up} {
           // width: 732px;
-          border: 3px solid black;
+          border: 5px solid black;
         }
       }
       #features_block {
         background-color: #1AC3C0;
         box-sizing: border-box;
-        box-shadow: 4px 4px 4px #DADADA;
+        box-shadow: 0 0 5px 5px #DADADA;
         text-align: center;
         height: 270px;
         @media #{$large-up} {
@@ -144,6 +146,7 @@ body {
         .features_content {
           border-bottom: 1px solid #149694;
           padding: 5px;
+          font-size: 14px;
         }
       }
     }
@@ -151,7 +154,7 @@ body {
       margin: 30px;
       text-align: center;
       p {
-        font-size: 20px;
+        font-size: 24px;
         text-align: left;
         font-weight: bold;
       }
@@ -159,7 +162,7 @@ body {
   } //END CONTENT
   // FOOTER
   footer {
-    // box-shadow: -3px -3px -3px #D6D4D4;
+    box-shadow: 0 0 5px 5px #D6D4D4;
     .border {
       border-image: url('/images/border.png') 45% repeat;
     }
