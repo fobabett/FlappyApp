@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Lato");
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 meta.foundation-version {
   font-family: "/5.4.7/"; }
 
@@ -5562,7 +5562,7 @@ th.hide-for-touch {
 
 body {
   font-family: "Lato", sans-serif;
-  font-weight: bold;
+  font-weight: 900;
   text-transform: uppercase;
   background-color: #202227; }
   body #header_section {
@@ -5639,11 +5639,10 @@ body {
               padding-bottom: 10px;
               border-bottom: 5px solid #1AC5C2; } }
         body #header_section #tablet_desktop_nav .nav_item a:hover {
-          color: #FFFFFF;
-          border-bottom: 5px solid #FFFFFF; }
-      @media only screen and (min-width:64.063em) {
-        body #header_section #tablet_desktop_nav #tablet_desktop_nav:hover {
-          border-bottom: 5px solid #FFFFFF; } }
+          color: #FFFFFF; }
+          @media only screen and (min-width:64.063em) {
+            body #header_section #tablet_desktop_nav .nav_item a:hover {
+              border-bottom: 5px solid #FFFFFF; } }
   body #content_container {
     text-align: center;
     padding-bottom: 10px;
