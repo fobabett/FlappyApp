@@ -5575,7 +5575,7 @@ body {
       body #header_section {
         padding-bottom: 30px; } }
     body #header_section .border {
-      border-image: url('/images/border.png') 45% repeat; }
+      border-image: url('../images/border.png') 45% repeat; }
     body #header_section #mobile_nav {
       background-color: #202227; }
       body #header_section #mobile_nav #mobile_logo {
@@ -5708,7 +5708,7 @@ body {
   body footer {
     letter-spacing: 1px; }
     body footer .border {
-      border-image: url('/images/border.png') 45% repeat; }
+      border-image: url('../images/border.png') 45% repeat; }
     body footer .footer_links {
       color: #FFFFFF;
       margin-top: 40px; }
