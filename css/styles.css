@@ -5654,7 +5654,7 @@ body {
       body #content_container #content_blocks {
         margin-top: 30px; } }
     body #content_container #content_blocks #img_block {
-      background-image: url('./images/scenery.png');
+      background-image: url('../images/scenery.png');
       box-sizing: border-box;
       height: 267px; }
       @media only screen and (min-width:64.063em) {
