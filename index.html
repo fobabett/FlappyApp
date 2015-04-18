@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/styles.css"/>
+  <title>Flappy App</title>
+</head>
+<body>
+  <div id="header_section" class="clearfix">
+    <div class="border"></div>
+    <!-- DESKTOP LOGO -->
+    <div id="header_logo_section" class="show-for-large-up">
+      <h1 class="title">FLAPPY
+        <img id="logo" src="/images/logo.png" alt="logo">APP
+      </h1>
+    </div> <!-- END DESKTOP LOGO -->
+    <!-- MOBILE-TABLET LOGO -->
+    <div id="header_logo_section_medium" class="show-for-medium-only clearfix">
+      <img id="logo" src="/images/logo.png" alt="logo">
+      <div id="title_section">
+        <h1 class="title">FLAPPY<br><span class="highlight">APP</span></h1>
+      </div>  
+    </div> <!-- END MOBILE-TABLET LOGO -->
+    <!-- NAV FOR DESKTOP AND TABLET -->
+    <nav id="tablet_desktop_nav" class="show-for-medium-up">
+      <ul>
+        <li class="nav_item"><a href="#">About</a></li>
+        <li class="nav_item"><a href="#">Specs</a></li>
+        <li class="nav_item"><a href="#">Pricing</a></li>
+        <li class="nav_item"><a href="#">Contact</a></li>
+        <li class="nav_item"><a href="#">Sign Up</a></li>
+      </ul>
+    </nav><!-- END TABLET DESKTOP NAV -->
+    <!-- MOBILE NAV HERE -->
+    <nav id="mobile_nav" class="top-bar show-for-small-only" data-topbar role="navigation">
+      <ul class="title-area">
+        <li class="name">
+          <div id="mobile_logo">
+            <img src="/images/logo.png" alt="logo">
+          </div>
+          <h1 id="mobile_title"><a href="#">Flappy<span class="highlight">App</span></a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+          <li class="has-dropdown">
+            <a href="#">About</a>
+            <ul class="has-dropdown">
+              <li><a href="#">Specs</a></li>
+              <li class="has-dropdown"><a href="#">Pricing</a></li>
+              <li class="has-dropdown"><a href="#">Contact</a></li>
+              <li class="has-dropdown"><a href="#">Sign Up</a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </nav><!-- END MOBILE NAV -->
+  </div> <!-- END HEADER SECTION -->
+  <!-- CONTENT SECTION -->
+  <div id="content_container">
+    <div id="content_blocks">
+      <div class="row clearfix">
+        <div id="img_block" class="medium-12 large-8 column">
+        </div>
+        <div id="features_block" class="medium-12 large-4 column">
+          <div id="features_title">Features</div>
+          <div id="modes" class="features_content"><span class="highlight">23</span> Different Modes</div>
+          <div id="options" class="features_content"><span class="highlight">500</span> Options</div>
+          <div id="points" class="features_content">Over <span class="highlight">9000</span> Points</div>
+          <div id="flappiness" class="features_content"><span class="highlight">2X</span> The Flappiness of V1</div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div id="content_info" class="small-12 large-12 column">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fringilla purus quis eros euismod sodales. Nullam sed justo quis augue imperdiet pulvinar nec nec dolor. Pellentesque tempor scelerisque accumsan.
+        </p>
+      </div> 
+    </div>
+  </div><!-- END CONTENT SECTION -->
+  <!-- FOOTER -->
+  <footer>
+    <div class="border"></div>
+    <div class="row">
+      <div class="small-6 medium-4 large-4 column footer_links">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Specs</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Sign Up</a></li>
+        </ul>
+      </div>
+      <div class="medium-4 large-4 column footer_links hide-for-small-only">
+        <ul>
+          <li><a href="#">Commercial Licenses</a></li>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Case Studies</a></li>
+          <li><a href="#">Developer Tools</a></li>
+          <li><a href="#">Documentation</a></li>
+        </ul>
+      </div>
+      <div class="small-6 medium-4 large-4 column footer_links">
+        <ul>
+          <li><a href="#">Tutorials</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Social Media</a></li>
+          <li><a href="#">Partners</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div id="footer_bar" class="large-12 column">
+        &#169;2014 FLAPPY INC.
+      </div>
+    </div>
+  </footer>
+  <script src="../app.js"></script>
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="/bower_components/foundation/js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>  
+</body>
+</html>
